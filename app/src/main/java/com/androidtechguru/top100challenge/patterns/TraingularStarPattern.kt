@@ -1,0 +1,1 @@
+package com.androidtechguru.top100challenge.patternsfun main() {    traingularStarPattern()}fun traingularStarPattern() {    repeat(5) { count ->        repeat(count+1) {            print("*")        }        println()    }}
