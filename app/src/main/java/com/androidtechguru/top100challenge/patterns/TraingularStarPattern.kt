@@ -1,1 +1,1 @@
-package com.androidtechguru.top100challenge.patternsfun main() {    traingularStarPattern()}fun traingularStarPattern() {    repeat(5) { count ->        repeat(count+1) {            print("*")        }        println()    }}
+package com.androidtechguru.top100challenge.patternsfun main() {    val pattern = Pattern()    pattern.rightAngleTriangle()}class Pattern {        fun rightAngleTriangle() {        repeat(5) { row ->            repeat(row + 1) {                print("*")            }            println()        }    }    }
